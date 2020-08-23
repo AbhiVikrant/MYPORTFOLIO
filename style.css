@@ -1,7 +1,7 @@
 * {margin: 0; padding: 0; list-style: none; font-size: 1em; font-weight: normal;}
 body {font-size: 10pt;}
 a {text-decoration: none;}
-img {max-width: 100%;}
+img {max-width: 100%; background-position: center;}
 
 header {overflow: hidden; background-color: #000;}
 header h1 {float: left; padding: 10px;}
@@ -10,7 +10,11 @@ header nav {float: right; padding: 10px;}
 header nav ul li {display: inline-block; margin-left: 20px;}
 header nav ul li a {color: #fff; display: block; border: 1px solid #ccc; font-size: 1.25em; padding: 5px 10px 8px; line-height: 1; border-radius: 5px; -webkit-transition: all 100ms linear; -o-transition: all 100ms linear; transition: all 100ms linear;}
 header nav ul li a:hover {background-color: #fff; color: #000;}
-section{margin: 15px; box-shadow: 0 0 10px rgba(0 ,0, 0, 0.5); padding: 15px; border-radius: 10px;}
-section #intro{box-shadow: none; margin: 0; padding: 0; border-radius: 0px;}
+section{margin: 15px; box-shadow: 0 0 10px rgba(0 ,0, 0, 0.5); padding: 15px; border-radius: 10px; min-height: 600px;}
+section #intro{box-shadow: none; margin: 0; padding: 0; border-radius: 0px; min-height: none;}
 
-    section h2{}
+    section h2{ font-size: 1.5em; padding-bottom: 10px; margin-bottom: 10px;border-bottom: 2px solid #ccf; border-radius: 10px; text-align: center; }
+    section p { }
+    footer{font-size: 0.85em;padding: 15px;
+    text-align:  center;
+    }
