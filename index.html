@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 	</head>
 	<body>
 		<header>
@@ -21,15 +22,15 @@
 			</nav>
 		</header>
 		<section id="intro">
-            <div class="container">
+            <div class="container_bug">
       <img src=" X:\WEB DEV PRACTICE\Portfolio\Abhi.jpg" alt="AbhiVikrant's Website" />
   <div class="text-block">
-    <h4>Hi, I am </h4>
+    <h5>Hi, I am </h5>
          <h1>Abhishek Kumar Vikrant </h1>
          <p>
                   I am a student and recentaly graduated<br> in Computer Science and Engineering<br> from University Institute of Engineering and Technology<br> with past good academic records , <br>having good technical skills , <br>programming pasts since 11th <br>and also good soft skills.
                   <br>
-                  I am looking for opportunities<br> and open for hiring either as <br>junior java developer <br>or software developer .</br>
+                  I am looking for opportunities<br> and open for hiring either as <br>full stack developer <br>or software developer .</br>
                 </p>
 
 
@@ -201,8 +202,118 @@ Link:-<a href="https://github.com/AbhiVikrant/WEB-MADE-VLOG-REPOS" target="_blan
 		</section>
 		<section id="Contact">
 			<h2>Contact Me</h2>
-            <p> This is my contact sections .</p>
+            <div class="contact_me_container">
+              <div class="container">
+				  <h4 style="color: blue; "><strong> If there is any suggestion or feedback or query , I am here to listen all and get back soon....</strong></h4>
+				  <br>
+				  <br>
+				  <br>
+				  <form method="post"
+				        action="mailto: infoabhivikrant@gmail.com"
+						enctype="multipart/form-data">
+						<div class="control">
+							NAME:
+							<input aria-required=""
+							      id="name"
+								  type="text"/>
+							  </div>
+							  <br>
+				   <div class="control">
+					   Mobile no:
+					   <input aria-required=""
+					          id="mobile_number"
+							  type="tel"/>
+						  </div>
+						  <br>
+						  <div class="control">
+							  Suggestion:
+							  <br>
+							  <br>
+							  <textarea rows="14" cols="44" name="comments">
+							  </textarea>
+						  </div>
+						  <br>
+						  <div class="control">
+							  <input type="submit"
+							  value="submit"/>
+						  </div>
+					  </form>
+
+			  </div>
+			</div>
+			<div class="contact_me_container">
+			<div class="postbox_container">
+				<h4 style="color: blue; "><strong> If there is an opportunity for me , I am very happy to talk about this and always prefer where i get more and more to learn new things and please let me know about this through mail or phone number.</strong></h4>
+				<br>
+				<br>
+				<br>
+				<form method="post"
+					  action="mailto: infoabhivikrant@gmail.com"
+					  enctype="multipart/form-data">
+					  <div class="control">
+						  Organisation Name :
+						  <input aria-required=""
+								id="name"
+								type="text"/>
+							</div>
+							<br>
+				 <div class="control">
+					  Phone :
+					 <input aria-required=""
+							id="mobile_number"
+							type="tel"/>
+						</div>
+						<br>
+						<div class="control">
+							Role:
+							<br>
+							<br>
+							<textarea rows="14" cols="44" name="comments">
+							</textarea>
+						</div>
+						<br>
+						<div class="control">
+							<input type="submit"
+							value="submit"/>
+						</div>
+					</form>
+
+			</div>
+			</div>
+			</div>
+			<div class="address_container">
+				<address>
+					<p>B Block Sector 62, Noida UP </p>
+				</address>
+			</div>
 		</section>
-		<footer><p>Copyright &copy; 2020 Abhishek Kumar Vikrant.</p></footer>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	<script>
+	//Get the button
+	var mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    mybutton.style.display = "block";
+	  } else {
+	    mybutton.style.display = "none";
+	  }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+	</script>
+
+		<footer>
+			<p>Developed By: Abhishek Kumar Vikrant.<a href="mailto:infoabhivikrant@gmail.com?cc=abhivikrant@yahoo.com & subject= ContactingYou " >Contact Developer</a></p>
+			<p>Copyright &copy; 2020 Abhishek Kumar Vikrant.</p>
+		</footer>
 	</body>
 </html>
